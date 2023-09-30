@@ -8,9 +8,9 @@
 
 .title {
    text-align: center;
-   margin: 2rem 0;
+   margin: 1rem  2rem 0 ;
    color: dodgerblue;
-
+   font-size: 2.5rem;
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 .main textarea {
-   width: 90%;
+   width: 80%;
    padding: 1rem;
    /* margin: 30px 0; */
    border: 1px solid #000000;
@@ -35,17 +35,49 @@
 }
 
 .ipop{
-   height: 25vh ;
+   height: 22vh ;
+   background-color: rgb(243, 243, 243);
 }
 
 #key{
    margin-top : 20px;
    margin-bottom: 20px;
+   background-color: rgb(243, 243, 243);
+
 }
 
 .text{
- margin-left: 5%;
+ margin-left: 10%;
  margin-bottom: 15px;
  font-size: large;
  font-weight: 700;
+}
+
+.button{
+   width: 48%;
+   padding: 15px;
+   border-radius: 10px;
+   background-color: dodgerblue;
+   border:1px solid rgb(3, 86, 168);
+   font-size: 1.2rem;
+   font-weight: 700;
+   color: white;
+}
+
+.buttons{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.me{
+   text-align: center;
+   margin: 60px 0;
+}
+.name{
+   font-weight: 700;
+   color: dodgerblue;
+   text-decoration: none;
 }
