@@ -8,7 +8,7 @@
 
 .title {
    text-align: center;
-   margin: 1rem  2rem 0 ;
+   margin: 0.5+rem 0 0.5rem 0 ;
    color: dodgerblue;
    font-size: 2.5rem;
 }
@@ -40,22 +40,22 @@
 }
 
 #key{
-   margin-top : 20px;
-   margin-bottom: 20px;
+   margin-top : 10px;
+   margin-bottom: 10px;
    background-color: rgb(243, 243, 243);
 
 }
 
 .text{
  margin-left: 10%;
- margin-bottom: 15px;
+ margin-bottom:5px;
  font-size: large;
  font-weight: 700;
 }
 
 .button{
    width: 48%;
-   padding: 15px;
+   padding: 14px;
    border-radius: 10px;
    background-color: dodgerblue;
    border:1px solid rgb(3, 86, 168);
@@ -67,7 +67,7 @@
 .buttons{
    display: flex;
    justify-content: space-between;
-   width: 80%;
+   width: 78%;
    margin-left: auto;
    margin-right: auto;
 }
