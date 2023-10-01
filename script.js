@@ -18,7 +18,7 @@ function encrypt() {
    if (key != "") {
       let x = '0'
       for(let i = 0; i < key.length; i++){
-         x ^= key.charCodeAt(i)
+         x += key.charCodeAt(i)
       }
       for (let i = 0; i < text.length; i++) {
          temp = text.charCodeAt(i) ^ key.charCodeAt(i % key.length) ^ x
@@ -35,6 +35,7 @@ function textCopy() {
    output.select()
    output.setSelectionRange(0, 99999)
    document.execCommand("copy")
+   input.value = ""
    input.focus()
 
 }
