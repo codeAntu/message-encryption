@@ -17,11 +17,13 @@ function encrypt() {
 
    if (key != "") {
       let x = '0'
+      let y = '0'
       for(let i = 0; i < key.length; i++){
          x += key.charCodeAt(i)
+         y ^= key.charCodeAt
       }
       for (let i = 0; i < text.length; i++) {
-         temp = text.charCodeAt(i) ^ key.charCodeAt(i % key.length) ^ x
+         temp = text.charCodeAt(i) ^ key.charCodeAt(i % key.length) ^ x ^ y + (x + y) + (x - y)
          encrypted += String.fromCharCode(temp)
       }
    }
